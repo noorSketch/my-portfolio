@@ -1,3 +1,4 @@
+
 function Projects() {
   return (
     <section className="section">
@@ -10,19 +11,35 @@ function Projects() {
         marginTop: "20px"
       }}>
 
-        <div className="card">
-          <h3>Meeting Minutes App</h3>
-          <p>
-            Converts meeting discussions into structured minutes using speech-to-text.
-          </p>
-        </div>
+        {/* Meeting Minutes */}
+        <a
+          href="https://github.com/yourusername/meeting-minutes-app"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ textDecoration: "none", color: "inherit" }}
+        >
+          <div className="card" style={{ cursor: "pointer" }}>
+            <h3>Meeting Minutes App</h3>
+            <p>
+              Converts meeting discussions into structured minutes using speech-to-text.
+            </p>
+          </div>
+        </a>
 
-        <div className="card">
-          <h3>Online Store (Practice)</h3>
-          <p>
-            Shopping cart system built to practice React components and state.
-          </p>
-        </div>
+        {/* Online Store */}
+        <a
+          href="https://noorsketch.github.io/MyTrivia-Game/"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ textDecoration: "none", color: "inherit" }}
+        >
+          <div className="card" style={{ cursor: "pointer" }}>
+            <h3>FaktArena</h3>
+            <p>
+              Trivia game related to Malaysia factual information.
+            </p>
+          </div>
+        </a>
 
       </div>
     </section>

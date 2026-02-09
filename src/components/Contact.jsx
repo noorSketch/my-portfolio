@@ -6,19 +6,19 @@ function Contact() {
 
       <p>
         Email:{" "}
-        <a href="mailto:fiqa@example.com">
-          fiqa@example.com
+        <a href="mailto:noorafiqahmz01@gmail.com">
+          noorafiqahmz01@gmail.com
         </a>
       </p>
 
       <p>
         GitHub:{" "}
         <a
-          href="https://github.com/fiqazahid"
+          href="https://github.com/noorSketch"
           target="_blank"
           rel="noreferrer"
         >
-          github.com/fiqazahid
+          github.com/noorSketch
         </a>
       </p>
     </section>
